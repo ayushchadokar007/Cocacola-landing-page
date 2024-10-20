@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+    color: white;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+    background-image: radial-gradient(at top, #6a0d08, black 50%);
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar {
+    height: 12%;
+    width: 100%;
+    padding: 10px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-family: italic;
+}
+
+.navmenu a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 9px 14px;
+    margin: 15px;
+    background: transparent;
+    transition: all .4s ease;
+}
+
+.navmenu a:hover {
+    color: black;
+    background-color: white;
+}
+
+.main {
+    position: relative;
+    height: 88%;
+    width: 100%;
+    padding: 0px 10%;
+    display: flex;
+    align-items: center;
+}
+
+.herotext {
+    position: absolute;
+    max-width: 600px;
+    height: 100%;
+    top: 22%;
+}
+
+.herotext h2 {
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-family: italic;
+}
+
+.herotext p {
+    letter-spacing: .6px;
+    font-size: 23px;
+    font-style: oblique;
+}
+
+.herotext h1,
+p {
+    margin-bottom: 3px;
+}
+
+.herotext a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    background: #e51e2a;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-decoration: none;
+    transition: scale .2s ease;
+}
+
+.herotext a:hover {
+    background: #e0101e;
+    scale: .9;
+}
+
+.main img {
+    position: absolute;
+    width: 240px;
+    height: 90%;
+    top: 5%;
+    right: 200px;
+    transition: scale .2s ease;
+}
+
+.main img:hover {
+    scale: 1.1;
+}
